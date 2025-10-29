@@ -11,7 +11,7 @@ int main(){
 
     else if ( income>250000 && income <= 500000){
         temp = income - 250000;
-	    tax = (income-250000)*5/100;
+	    tax = (temp)*5/100;
     }
 
     else if ( income > 500000 && income <= 1000000){
