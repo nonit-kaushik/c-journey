@@ -35,7 +35,7 @@ int main()
 
     if (user_num == randomNumber)
     {
-        printf("\n✅ Correct! The number was %d.\nYou guessed it in %d tries.\n", randomNumber, count);
+        printf("\nCorrect! The number was %d.\nYou guessed it in %d tries.\n", randomNumber, count);
     }
 
     return 0;
