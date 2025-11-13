@@ -1,1 +1,0 @@
-write a c program to take 2d matrix from user and then print sum of its diagonal elements
