@@ -4,10 +4,10 @@ void sum(int x, int y){
     printf("The sum is %d\n",x+y);
 }
 
-void change(int x);
-void change(int x){              // function change take int value as an argument which can't be change ie. 8 can't be changed to 4.
-    x = 4;                       // But it seems that it take variable as an argument and change the value of variable.
-}                                // an function can't modify value stored in any variable but it can perform operation on that variable. 
+void change(int a);              // function change take int value as an argument which can't be change ie. 8 can't be changed to 4.
+void change(int a){              // It just make copy of variable a.
+    a = 4;                       // But it seems that it take variable as an argument and change the value of variable.
+}                                // function can only modify or change the value of an variable using pointers. 
 
 int Change(int x);
 int Change(int x){

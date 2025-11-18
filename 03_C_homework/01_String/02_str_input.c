@@ -3,7 +3,7 @@
 int main(){
     char name[100];
     printf("Enter Your Name: ");
-    scanf("%[^\n]s",name);
+    scanf("%[^\n]",name);
     printf("%s",name);
     
     return 0;
@@ -15,7 +15,7 @@ int main(){
 // int main(){
 //     char name[100];
 //     printf("Enter Your Name: ");
-//     scanf("%[^|]s",name);
+//     scanf("%[^|]",name);
 //     printf("%s",name);
     
 //     return 0;
