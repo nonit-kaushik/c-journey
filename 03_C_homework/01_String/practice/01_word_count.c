@@ -7,7 +7,7 @@ int main(){
     scanf("%[^\n]",str);
     while (str[i] != '\0')
     {
-        if (str[i] == ' ' && str[i-1] != ' ')
+        if (str[i] == ' ' && str[i-1] != ' ' && str[i+1] != '\0')
         {
             count++;
         }
