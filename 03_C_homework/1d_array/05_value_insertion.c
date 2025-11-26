@@ -6,10 +6,10 @@ int main()
     printf("Enter the size of array: ");
     scanf("%d", &size);
     
-    int my_array[size];
+    int my_array[size+1];
 
     printf("Enter the elements of array: "); 
-    for (int i = 0; i < size - 1; i++)
+    for (int i = 0; i < size; i++)
     {
         scanf("%d", &my_array[i]);
     }
@@ -25,14 +25,14 @@ int main()
     printf("\nEnter the value: ");
     scanf("%d", &value);
 
-    for (int i = size; i > index; i--)
+    for (int i = size+1; i > index; i--)
     {
         my_array[i] = my_array[i - 1];
     }
 
     my_array[index] = value;
 
-    for (int j = 0; j < size; j++)
+    for (int j = 0; j < size+1; j++)
     {
         printf("%d ", my_array[j]);
     }

@@ -21,7 +21,7 @@ int main()
         }
     }
     if (is_found == 0){
-        printf("d\nNumber not found!");
+        printf("\nNumber not found!");
     }
     return 0;
 }
