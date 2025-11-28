@@ -25,7 +25,7 @@ int main()
     printf("\nEnter the value: ");
     scanf("%d", &value);
 
-    for (int i = size+1; i > index; i--)
+    for (int i = size; i > index; i--)
     {
         my_array[i] = my_array[i - 1];
     }
