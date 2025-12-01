@@ -31,8 +31,8 @@ int main()
     }
 
     my_array[index] = value;
-
-    for (int j = 0; j < size+1; j++)
+    size++;
+    for (int j = 0; j < size; j++)
     {
         printf("%d ", my_array[j]);
     }

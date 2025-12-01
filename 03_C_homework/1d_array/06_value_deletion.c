@@ -25,7 +25,7 @@ int main()
     {
         my_array[i] = my_array[i + 1];
     }
-    size=size-1;
+    size--;
     printf("\nUpdated array:\n");
     for(int i = 0; i < size; i++){
         printf("%d ",my_array[i]);
