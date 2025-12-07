@@ -6,7 +6,7 @@
 // }
     
     
-//WAP to print Hello World
+// //WAP to print Hello World
 #include<stdio.h>
 void main()
 {
