@@ -1,9 +1,0 @@
-Que- Twenty integers ate to be stored in memory.
-     What will you prefer - Array or Structure?
-
-Ans- Array
-Reason- Because it is designed for similar datatypes
-and it is easy to store in array 
-Why not Structure- Because it is designed for different
-datatypes and structure are used if same datatype is stored
-in structure then data will definitely have different meaning 
